@@ -13,7 +13,7 @@ const Category = () => {
 
   return (
     <section>
-      <div className="container mx-auto">
+      <div className="container px-5 mx-auto">
         <Carousel autoplay slidesToShow={3}>
           <div className="card category_card ">
             <img

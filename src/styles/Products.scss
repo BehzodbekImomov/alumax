@@ -44,22 +44,28 @@
   }
 }
 @media (max-width: 768px) {
-  .products_content {
-    .products_title {
-      margin:  0 auto;
-      h3 {
-        font-size: calc(1.325rem + 0.9vw);
-        font-weight: 500;
-        line-height: 1.2;
+  .products{
+
+    .products_content {
+      .products_title {
+        text-align: center;
+        margin:  0 auto;
+        h3 {
+          font-size: calc(1.325rem + 0.9vw);
+          font-weight: 500;
+          line-height: 1.2;
+        }
+        p {
+          text-align: center;
+          padding-right: 0;
+          font-weight: 400;
+          line-height: 28px;
+          font-size: 14px;
+        }
       }
-      p {
-        font-weight: 400;
-        line-height: 28px;
-        font-size: 14px;
+      .products_imgs {
+        display: grid;
       }
-    }
-    .products_imgs {
-      display: grid;
     }
   }
 }

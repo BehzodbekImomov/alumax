@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer id="contact" className="py-20">
-      <div className="container mx-auto ">
+      <div className="container px-5 mx-auto ">
         <div className="footer_section1 flex justify-between flex-wrap">
           <div className="footer_desc">
             <img src="/logo2.png" alt="logo" />

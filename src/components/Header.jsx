@@ -7,7 +7,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <header className="py-8">
-      <div className="container mx-auto  ">
+      <div className="container px-5 mx-auto  ">
         <div className=" navbar flex justify-between items-center  ">
            
         <div className="alumax_logo w-40">

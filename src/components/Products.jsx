@@ -3,7 +3,7 @@ import "../styles/Products.scss";
 const Products = () => {
   return (
     <section id="product" className="products">
-      <div className="container products_content mx-auto py-32 flex gap-7">
+      <div className="container px-5 products_content mx-auto py-32 flex gap-7">
         <div className="products_title ">
           <h3 className="text-4xl font-medium opacity-80">
             Crafted with excellent material.

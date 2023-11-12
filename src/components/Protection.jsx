@@ -3,7 +3,7 @@ import "../styles/Protection.scss";
 const Protection = () => {
   return (
     <section id="advantags" className="protection">
-      <div className="container protection_content mx-auto relative flex">
+      <div className="container px-5 protection_content mx-auto relative flex">
         <div className="protection_title">
           <h3>Protection from disasters</h3>
           <p>

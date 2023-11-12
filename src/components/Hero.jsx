@@ -3,7 +3,7 @@ import "../styles/Hero.scss";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className=" container  mx-auto ">
+      <div className=" container px-2 mx-auto ">
         <div className="hero_content  flex justify-between  py-16   ">
           <div className="hero_title py-20 ">
             <h2 className="text-6xl font-bold text-white">

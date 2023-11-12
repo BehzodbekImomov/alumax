@@ -3,7 +3,7 @@ import "../styles/About.scss";
 const About = () => {
   return (
     <section id="about" className="about relative">
-      <div className="container about_content  mx-auto flex ">
+      <div className="container px-5 about_content  mx-auto flex ">
         <div className="about_imgs pl-1">
           <div className="about_grid card">
             <div></div>
