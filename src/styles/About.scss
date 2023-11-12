@@ -1,0 +1,101 @@
+.about {
+  background: #eff2f1;
+  padding: 14rem 0;
+
+  .about_imgs {
+    width: 65%;
+    height: auto;
+
+    .img_card {
+      display: grid;
+      grid-template-columns: repeat(27, 1fr);
+      img {
+        border-radius: 40px;
+      }
+      .img1 {
+        grid-column: 1 / span 18;
+        grid-row: 1 / span 27;
+        z-index: 10;
+      }
+      .img2 {
+        grid-row: 1 / span 5;
+        padding-left: 20px;
+        grid-column: 19 / span 27;
+      }
+      .img3 {
+        grid-row: 6 / span 27;
+        padding-top: 20px;
+        grid-column: 14 / span 16;
+        z-index: 20;
+      }
+    }
+    .about_grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(8, 1fr);
+      width: 280px;
+      height: 250px;
+      position: absolute;
+      z-index: 1;
+      top: 150px;
+      left: 15px;
+      div {
+        width: 7px;
+        height: 7px;
+        border-radius: 100%;
+        background: #35736e;
+      }
+    }
+  }
+  .about_title {
+    width: 35%;
+    h3 {
+      color: #2f2f2f;
+      margin-bottom: 1.5rem !important;
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+    p {
+      font-family: "Inter", sans-serif;
+      font-weight: 400;
+      line-height: 28px;
+      color: #6a6a6a;
+      font-size: 14px;
+    }
+    .about_cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      margin-top: 1.5rem !important;
+      margin-bottom: 1.5rem !important;
+      li {
+        display: flex;
+        align-items: flex-start;
+        gap: 13px;
+        div {
+          width: 9px;
+          height: 9px;
+          margin-top: 10px;
+          border-radius: 100%;
+          background: #eff2f1;
+          border: 2.3px solid #6a6a6a;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .about {
+    .about_content {
+      display: grid;
+      justify-content: center;
+      .about_imgs {
+        width: 100%;
+      }
+      .about_title {
+        width: 100%;
+      }
+    }
+  }
+}

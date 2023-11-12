@@ -1,27 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import "tailwindcss/tailwind.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  scroll-behavior: smooth;
+  transition: all 1s ease-in-out;
+  background: #eff2f1;
+}
+.container_home {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.ant-modal-footer {
+  display: none;
+}
+.ant-modal-content {
+  background: #3b5d50 !important;
+}
+.anticon-close {
+  color: #eff2f1;
+  font-weight: 600;
+}
+.ant-btn {
+  color: #eff2f1;
+}
+.css-dev-only-do-not-override-1adbn6x {
+  color: #eff2f1;
+}
+.ant-btn-link {
+  color: #eff2f1;
 }
