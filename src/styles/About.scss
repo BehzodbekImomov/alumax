@@ -10,7 +10,7 @@
       display: grid;
       grid-template-columns: repeat(27, 1fr);
       img {
-        border-radius: 40px;
+        border-radius: 20px;
       }
       .img1 {
         grid-column: 1 / span 18;
@@ -27,6 +27,9 @@
         padding-top: 20px;
         grid-column: 14 / span 16;
         z-index: 20;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        width: 100%;
       }
     }
     .about_grid {

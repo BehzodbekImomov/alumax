@@ -64,9 +64,9 @@ const About = () => {
             <div></div>
           </div>
           <div className="img_card">
-            <img className="img1" src="about1.jpg" alt="img" />
-            <img className="img2" src="about2.jpg" alt="img" />
-            <img className="img3 " src="about3.jpg" alt="img" />
+            <img className="img1 " src="about3.png" alt="img" />
+            <img className="img2" src="about2.png" alt="img" />
+            <img className="img3" src="about1.png" alt="img" />
           </div>
         </div>
         <div className="about_title pl-20">
