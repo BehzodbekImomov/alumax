@@ -18,17 +18,17 @@ const Products = () => {
         <div className="products_imgs flex gap-10 ">
           <div className="img_cards">
             {" "}
-            <img src="/product.jpg" alt="" />
+            <img src="/product.png" alt="" />
             <div className="img_card"></div>
           </div>
           <div className="img_cards">
             {" "}
-            <img src="/product.jpg" alt="" />
+            <img src="/product.png" alt="" />
             <div className="img_card"></div>
           </div>
           <div className="img_cards">
             {" "}
-            <img src="/product.jpg" alt="" />
+            <img src="/product.png" alt="" />
             <div className="img_card"></div>
           </div>
         </div>

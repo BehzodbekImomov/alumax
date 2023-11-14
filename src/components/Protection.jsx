@@ -156,7 +156,7 @@ const Protection = () => {
           </ul>
         </div>
         <div className="protection_img">
-          <img src="/product.jpg" alt="img" />
+          <img src="/product.png" alt="img" />
           <div className="protection_grid">
             <div></div>
             <div></div>
