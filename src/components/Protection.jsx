@@ -5,10 +5,15 @@ const Protection = () => {
     <section id="advantags" className="protection">
       <div className="container px-5 protection_content mx-auto relative flex">
         <div className="protection_title">
-          <h3>Protection from disasters</h3>
+          <h3>Стратегия компании</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            explicabo tenetur eum ipsa. Vitae, dolorem?
+            Гарантии качества продукции обеспечиваются использованием
+            высококачественного сырья, которое поставляют проверенные
+            производители и тщательным контролем, осуществляемым на каждом
+            рабочем этапе. Рациональный подход к снижению издержек позволяет нам
+            управлять затратами предприятия. В результате заказчики получают
+            качественные алюминиевые композитные панели и цены, которые
+            гарантированно оправдают каждый вложенный ими деньги.
           </p>
           <ul className="protection_title_cards grid grid-cols-2 gap-10">
             <li className="title_card">
@@ -151,7 +156,7 @@ const Protection = () => {
           </ul>
         </div>
         <div className="protection_img">
-          <img src="/product.JPG" alt="img" />
+          <img src="/product.jpg" alt="img" />
           <div className="protection_grid">
             <div></div>
             <div></div>

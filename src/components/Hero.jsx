@@ -7,11 +7,10 @@ const Hero = () => {
         <div className="hero_content  flex justify-between  py-16   ">
           <div className="hero_title py-20 ">
             <h2 className="text-6xl font-bold text-white">
-              Modern Interior Design Studio
+            Алюминиевые композитные панели 
             </h2>
             <p className="text-base py-8 text-orange-50 opacity-50">
-              Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
-              velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+            Современный облицовочный материал, изготавливаемый из двух слоёв алюминиевой ленты и внутреннего полимерного наполнителя методом горячепрокатного экструдирования.
             </p>
           </div>
           <div className="hero_img pr-20 ">

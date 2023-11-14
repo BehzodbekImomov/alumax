@@ -70,29 +70,45 @@ const About = () => {
           </div>
         </div>
         <div className="about_title pl-20">
-          <h3>We Help You Make Modern Interior Design</h3>
+          <h3>О компании</h3>
           <p>
-            Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis
-            nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate
-            velit imperdiet dolor tempor tristique. Pellentesque habitant morbi
-            tristique senectus et netus et malesuada
+            Производство композитных панелей из алюминия в Узбекистане позволило
+            нашей компании наладить жесткий контроль над качеством продукции на
+            всех этапах производственного цикла. На каждом этапе производства
+            продукции, начиная с контроля качества закупаемого сырья и
+            материалов, контроль за качеством – неусыпная забота собственной
+            Службы качества, в состав которой входят: отдел технического
+            контроля (ОТК), лаборатория качества и отдел по работе с
+            рекламациями. Созданное нами предприятие позволило предоставить для
+            наших покупателей ряд существенных преимуществ:
           </p>
           <ul className="about_cards">
             <li>
               <div></div>
-              <p>Donec vitae odio quis nisl dapibus malesuada</p>
+              <p>
+                соблюдение технологии производства и гарантированное качество
+                продукции;
+              </p>
             </li>
             <li>
               <div></div>
-              <p>Donec vitae odio quis nisl dapibus malesuada</p>
+              <p>
+                индивидуальный подход к ценообразованию для каждого клиента;
+              </p>
             </li>
             <li>
               <div></div>
-              <p>Donec vitae odio quis nisl dapibus malesuada</p>
+              <p>
+                изготовление композитных панелей по точным индивидуальным
+                размерам;
+              </p>
             </li>
             <li>
               <div></div>
-              <p>Donec vitae odio quis nisl dapibus malesuada</p>
+              <p>
+                {" "}
+                оптимальные сроки изготовления композитных панелей из алюминия.
+              </p>
             </li>
           </ul>
         </div>

@@ -6,28 +6,29 @@ const Products = () => {
       <div className="container px-5 products_content mx-auto py-32 flex gap-7">
         <div className="products_title ">
           <h3 className="text-4xl font-medium opacity-80">
-            Crafted with excellent material.
+            Продукция компании
           </h3>
           <p className="opacity-60 text-base pt-6 pr-16">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
-            minima expedita aperiam? Esse harum, provident id culpa enim quasi
-            architecto.
+        
+
+Производство алюминиевых композитных панелей в Узбекистаи позволило AS ALFA STROY оперативно реагировать на потребности покупателей, позволило поставлять материалы для облицовки вентфасада на объекты в кратчайшие сроки и стабильно высокого потребительского качества.
+
           </p>
         </div>
         <div className="products_imgs flex gap-10 ">
           <div className="img_cards">
             {" "}
-            <img src="/product.JPG" alt="" />
+            <img src="/product.jpg" alt="" />
             <div className="img_card"></div>
           </div>
           <div className="img_cards">
             {" "}
-            <img src="/product.JPG" alt="" />
+            <img src="/product.jpg" alt="" />
             <div className="img_card"></div>
           </div>
           <div className="img_cards">
             {" "}
-            <img src="/product.JPG" alt="" />
+            <img src="/product.jpg" alt="" />
             <div className="img_card"></div>
           </div>
         </div>
