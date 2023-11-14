@@ -65,7 +65,7 @@ const About = () => {
           </div>
           <div className="img_card">
             <img className="img1 " src="about3.png" alt="img" />
-            <img className="img2" src="about2.png" alt="img" />
+            <img className="img2" src="about4.png" alt="img" />
             <img className="img3" src="about1.png" alt="img" />
           </div>
         </div>
