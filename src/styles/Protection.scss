@@ -137,6 +137,15 @@
           }
         }
       }
+      .protection_img{
+        img{
+          padding: 0;
+          margin: 0;
+        }
+        .protection_grid{
+          display: none;
+        }
+      }
     }
   }
 }
