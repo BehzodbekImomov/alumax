@@ -11,11 +11,9 @@ body {
   scroll-behavior: smooth;
   transition: all 1s ease-in-out;
   background: #eff2f1;
+  
 }
-.container_home {
-  max-width: 1440px;
-  margin: 0 auto;
-}
+
 .ant-modal-footer {
   display: none;
 }

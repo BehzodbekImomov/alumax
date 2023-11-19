@@ -1,11 +1,24 @@
+.category{
+  padding-top: 0;
+  h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #3b5d50;
+    padding-bottom: 15px;
+  }
+}
 .category_card {
   padding-right: 30px;
   padding-bottom: 50px;
+  width: 200px;
   h4 {
     text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    color: gold;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #3b5d50
   }
   img {
     width: 100%;
@@ -27,6 +40,12 @@
   }
 }
 @media (max-width:768px) {
+  .category{
+    h3{
+      font-size: 35px;
+    
+    }
+  }
   .category_card{
     h4{
       font-size: 30px;
@@ -34,9 +53,15 @@
   }
 }
 @media (max-width:576px) {
+  .category{
+    h3{
+      font-size: 28px;
+    
+    }
+  }
   .category_card{
     h4{
-      font-size: 20px;
+      font-size: 10px;
     }
   }
 }

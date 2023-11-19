@@ -7,35 +7,35 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <header className="py-8">
-      <div className="container px-5 mx-auto relative ">
-        <div className=" navbar flex justify-between items-center ">
+      <div className="container header_content mx-auto relative ">
+        <div className=" navbar flex justify-between items-center px-10">
           <div className="alumax_logo w-40">
             <img src="/logo.png" alt="logo" />
           </div>
-          <ul className="navbar_lists flex gap-14">
+          <ul className="navbar_lists flex gap-8 ">
             <li>
               <Link href="#" className="navbar_list text-lg">
-                Home
+                Главная
               </Link>
             </li>
             <li>
               <Link href="#product" className="navbar_list text-lg">
-                Products
+                Продукти
               </Link>
             </li>
             <li>
               <Link href="#about" className="navbar_list text-lg">
-                About
+                О нас
               </Link>
             </li>
             <li>
               <Link href="#advantags" className="navbar_list text-lg">
-                Advantags
+                Преимущество
               </Link>
             </li>
             <li>
               <Link href="#contact" className="navbar_list text-lg">
-                Contacts
+                Контакты
               </Link>
             </li>
           </ul>
@@ -72,35 +72,35 @@ const Header = () => {
               className="block  text-slate-100 font-semibold mt-5 ml-5 text-lg  hover:opacity-80  hover:text-slate-100   "
             >
               {" "}
-              Home
+              Главная
             </Link>
             <Link
               href="#product"
               className="block  text-slate-100 font-semibold mt-5 ml-5 text-lg  hover:opacity-80 hover:text-slate-100   "
             >
               {" "}
-              Products
+              Продукти
             </Link>
             <Link
               href="#about"
               className="block  text-slate-100 font-semibold mt-5 ml-5 text-lg  hover:opacity-80 hover:text-slate-100   "
             >
               {" "}
-              About
+              О нас
             </Link>
             <Link
               href="#advantags"
               className="block  text-slate-100 font-semibold mt-5 ml-5 text-lg  hover:opacity-80 hover:text-slate-100   "
             >
               {" "}
-              Advantags
+              Преимущество
             </Link>
             <Link
               href="#contact"
               className="block  text-slate-100 font-semibold mt-5 ml-5 text-lg  hover:opacity-80 hover:text-slate-100   "
             >
               {" "}
-              Contacts
+              Контакты
             </Link>
           </Modal>
         </div>

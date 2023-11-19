@@ -8,25 +8,11 @@
     .img_cards {
       display: grid;
       position: relative;
-      //       &:hover .img_card{
-      // display: inline;
-      //       }
-      //   .img_card {
-      //     position: absolute;
-      //     top: 0px;
-      //     left: 0;
-      //     right: 0;
-      //     bottom: 0;
-      //     border-radius: 50px;
-      //     background: #b7c2de;
-      //     opacity: 0.7;
-      //     display: none;
-
-      //   }
+   
       img {
         width: 100%;
         height: auto;
-        border-radius: 20px;
+        border-radius: 10px;
       }
     }
   }

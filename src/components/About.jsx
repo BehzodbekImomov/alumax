@@ -2,8 +2,8 @@ import React from "react";
 import "../styles/About.scss";
 const About = () => {
   return (
-    <section id="about" className="about relative">
-      <div className="container px-5 about_content  mx-auto flex ">
+    <section id="about" className="about relative py-32">
+      <div className="container px-10 about_content  mx-auto flex ">
         <div className="about_imgs pl-1">
           <div className="about_grid card">
             <div></div>
@@ -84,27 +84,27 @@ const About = () => {
           </p>
           <ul className="about_cards">
             <li>
-              <div></div>
+              <img src="/arrow.png" alt="" />
               <p>
                 соблюдение технологии производства и гарантированное качество
                 продукции;
               </p>
             </li>
             <li>
-              <div></div>
+              <img src="/arrow.png" alt="" />
               <p>
                 индивидуальный подход к ценообразованию для каждого клиента;
               </p>
             </li>
             <li>
-              <div></div>
+              <img src="/arrow.png" alt="" />
               <p>
                 изготовление композитных панелей по точным индивидуальным
                 размерам;
               </p>
             </li>
             <li>
-              <div></div>
+              <img src="/arrow.png" alt="" />
               <p>
                 {" "}
                 оптимальные сроки изготовления композитных панелей из алюминия.

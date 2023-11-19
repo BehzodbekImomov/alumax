@@ -3,8 +3,8 @@ import "../styles/Hero.scss";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className=" container px-2 mx-auto ">
-        <div className="hero_content  flex justify-between items-end     ">
+      <div className=" container px-10 hero_content mx-auto ">
+        <div className="hero_content  flex justify-between items-end">
           <div className="hero_title py-20 ">
             <h2 className="text-6xl font-bold text-white">
               Алюминиевые композитные панели
@@ -15,66 +15,8 @@ const Hero = () => {
               горячепрокатного экструдирования.
             </p>
           </div>
-          <div className="hero_img  flex mb-32 relative top-2 pl-40">
+          <div className="hero_img  flex text-end items-start pl-40">
             <img className=" h-auto" src="/hero0.png" alt="" />
-            <div className="menu_grid">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
           </div>
         </div>
       </div>

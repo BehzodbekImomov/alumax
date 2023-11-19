@@ -3,8 +3,8 @@ import "../styles/Footer.scss";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <footer id="contact" className="py-20">
-      <div className="container px-5 mx-auto ">
+    <footer id="contact" className="pt-32">
+      <div className="container px-16 mx-auto ">
         <div className="footer_section1 flex justify-between flex-wrap">
           <div className="footer_desc">
             <img src="/logo2.png" alt="logo" />
@@ -71,55 +71,27 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="footer_title flex mt-44  justify-between">
+          <div className="footer_title flex mt-44  justify-around">
             <ul>
               <li>
-                <a href="#">About us</a>
+                <a href="#">Главная</a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <a href="#">Продукти</a>
               </li>
               <li>
-                <a href="#">Blog</a>
+                <a href="#">О нас</a>
               </li>
               <li>
-                <a href="#">Contact us</a>
+                <a href="#">Преимущество</a>
               </li>
             </ul>
             <ul>
               <li>
-                <a href="#">Support</a>
+                <a href="#">Поддерживать</a>
               </li>
-              <li>
-                <a href="#">Knowladge base</a>
-              </li>
-              <li>
-                <a href="#">Live chat</a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a href="#">Jobs</a>
-              </li>
-              <li>
-                <a href="#">Our team</a>
-              </li>
-              <li>
-                <a href="#">Leadership</a>
-              </li>
-              <li>
-                <a href="#">Privacy Policy</a>
-              </li>
-            </ul>
-            <ul>
               <li>
                 <a href="mailto:info@alfa-stroy.uz">info@alfa-stroy.uz</a>
-              </li>
-              <li>
-                <a href="#">Cruzo Aero </a>
-              </li>
-              <li>
-                <a href="#">Ergonomic Chair</a>
               </li>
             </ul>
           </div>
@@ -127,12 +99,11 @@ const Footer = () => {
         <div className="line"></div>
         <div className="footer_end flex justify-between items-center">
           <p className="">
-            Copyright ©2023. All Rights Reserved. — Designed with love by
-            Untree.co Distributed By ThemeWagon
+            Copyright ©2023. All Rights Reserved. — Designed with love by ITC-21
           </p>
           <div className="flex gap-8 footer_term">
-            <Link href="#">Terms & Conditions</Link>
-            <Link href="#">Privacy Policy</Link>
+            <Link href="#">Условия использования</Link>
+            <Link href="#">Политика конфиденциальности</Link>
           </div>
         </div>
       </div>

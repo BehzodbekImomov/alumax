@@ -3,7 +3,7 @@ import "../styles/Protection.scss";
 const Protection = () => {
   return (
     <section id="advantags" className="protection">
-      <div className="container px-5 protection_content mx-auto relative flex">
+      <div className="container px-10 protection_content mx-auto relative flex">
         <div className="protection_title">
           <h3>Стратегия компании</h3>
           <p>
@@ -45,10 +45,10 @@ const Protection = () => {
                 </svg>
               </div>
               <div className="box_radius"></div>
-              <h4>Lorem, ipsum dolor.</h4>
+              <h4>Сопротивление ржавчине</h4>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-                vero delectus quod?
+                высокопрочное антикоррозийное покритиебзаме,замедляющий процесс
+                старения
               </p>
             </li>
             <li className="title_card">
@@ -79,11 +79,8 @@ const Protection = () => {
                 </svg>
               </div>
               <div className="box_radius"></div>
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-                vero delectus quod?
-              </p>
+              <h4>Температурная защита</h4>
+              <p>широкой диапазон температур от -40℃ до +80℃</p>
             </li>
             <li className="title_card">
               <div className="title_card_imgs flex">
@@ -113,11 +110,8 @@ const Protection = () => {
                 </svg>
               </div>
               <div className="box_radius"></div>
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-                vero delectus quod?
-              </p>
+              <h4>Cильный</h4>
+              <p>высокая устойчивость к механическим повреждениям</p>
             </li>
             <li className="title_card">
               <div className="title_card_imgs flex">
@@ -147,16 +141,13 @@ const Protection = () => {
                 </svg>
               </div>
               <div className="box_radius"></div>
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-                vero delectus quod?
-              </p>
+              <h4>Огнеустойчивый</h4>
+              <p>Двустроное покрытие огнеупорным материалом</p>
             </li>
           </ul>
         </div>
         <div className="protection_img">
-          <img src="/product.png" alt="img" />
+          <img src="/product4.jpeg" alt="img" />
           <div className="protection_grid">
             <div></div>
             <div></div>
